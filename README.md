@@ -78,6 +78,7 @@ This project demonstrates how to build a serverless contact form using:
 }
 ```
 
+Python Lambda Function:
 ``` Python Lambda Function
 import json
 import urllib.request
@@ -176,6 +177,7 @@ Add your reCAPTCHA site key
 
 Update the fetch() URL with your API Gateway endpoint
 
+html
 ```html
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
@@ -191,6 +193,7 @@ Update the fetch() URL with your API Gateway endpoint
 </form>
 ```
 
+js
 ```js
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
